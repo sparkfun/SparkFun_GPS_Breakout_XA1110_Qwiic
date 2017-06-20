@@ -289,30 +289,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="SparkX">
 <packages>
-<package name="1X04_1MM_RA">
-<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
-<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
-<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
-<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
-<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
-<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
-<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
-<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
 <package name="1X04_NO_SILK">
 <description>&lt;h3&gt;Plated Through Hole - 4 Pin No Silk Outline&lt;/h3&gt;
 &lt;p&gt;Specifications:
@@ -332,99 +308,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-</package>
-<package name="6.8MM_COIN_CELL">
-<description>Part#: MS621FE-FL11E</description>
-<circle x="0" y="0" radius="3.4" width="0.2032" layer="21"/>
-<smd name="+" x="4.87" y="0.75" dx="2.25" dy="0.85" layer="1" rot="R180"/>
-<smd name="-" x="4.87" y="-0.75" dx="2.25" dy="0.85" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="3.4" width="0.2032" layer="39"/>
-<wire x1="5.9" y1="1" x2="5.9" y2="0.5" width="0.0762" layer="51"/>
-<wire x1="5.9" y1="0.5" x2="3.6" y2="0.5" width="0.0762" layer="51"/>
-<wire x1="3.6" y1="-0.5" x2="5.9" y2="-0.5" width="0.0762" layer="51"/>
-<wire x1="5.9" y1="-0.5" x2="5.9" y2="-1" width="0.0762" layer="51"/>
-<wire x1="3.6" y1="-0.5" x2="3.6" y2="0.5" width="0.0762" layer="51"/>
-<wire x1="5.9" y1="1" x2="-3" y2="1" width="0.0762" layer="51"/>
-<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.0762" layer="51"/>
-<wire x1="-3" y1="-1" x2="5.9" y2="-1" width="0.0762" layer="51"/>
-<text x="-1.905" y="1.27" size="0.762" layer="25" ratio="15">&gt;Name</text>
-<text x="-1.905" y="0" size="0.762" layer="27" ratio="15">&gt;Value</text>
-</package>
-<package name="TITAN_X1_GPS">
-<circle x="-7.031" y="5.488" radius="0.2286" width="0.4572" layer="21"/>
-<wire x1="-6.25" y1="-6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
-<wire x1="6.25" y1="-6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
-<wire x1="6.25" y1="6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
-<wire x1="-6.25" y1="6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
-<smd name="1" x="-6.25" y="3" dx="2" dy="0.6" layer="1"/>
-<smd name="2" x="-6.25" y="1.8" dx="2" dy="0.6" layer="1"/>
-<smd name="3" x="-6.25" y="0.6" dx="2" dy="0.6" layer="1"/>
-<smd name="4" x="-6.25" y="-0.6" dx="2" dy="0.6" layer="1"/>
-<smd name="5" x="-6.25" y="-1.8" dx="2" dy="0.6" layer="1"/>
-<smd name="6" x="-6.25" y="-3" dx="2" dy="0.6" layer="1"/>
-<smd name="7" x="-3.6" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="8" x="-2.4" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="9" x="-1.2" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="10" x="1.2" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="11" x="2.4" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="12" x="3.6" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
-<smd name="13" x="6.25" y="-3" dx="2" dy="0.6" layer="1"/>
-<smd name="14" x="6.25" y="-1.8" dx="2" dy="0.6" layer="1"/>
-<smd name="15" x="6.25" y="-0.6" dx="2" dy="0.6" layer="1"/>
-<smd name="16" x="6.25" y="0.6" dx="2" dy="0.6" layer="1"/>
-<smd name="17" x="6.25" y="1.8" dx="2" dy="0.6" layer="1"/>
-<smd name="18" x="6.25" y="3" dx="2" dy="0.6" layer="1"/>
-<smd name="19" x="3.6" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<smd name="20" x="2.4" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<smd name="21" x="1.2" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<smd name="22" x="-1.2" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<smd name="23" x="-2.4" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<smd name="24" x="-3.6" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
-<text x="-4.6" y="2.9" size="1.27" layer="51" ratio="15">1</text>
-<circle x="-4.8" y="4.7" radius="0.4" width="0.0762" layer="51"/>
-<circle x="-4.8" y="4.7" radius="0.22360625" width="0.0762" layer="51"/>
-<wire x1="-6.3" y1="6.2" x2="-4.2" y2="6.2" width="0.2032" layer="21"/>
-<wire x1="-6.3" y1="6.2" x2="-6.3" y2="3.6" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="3.6" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="-6.2" x2="6.3" y2="-3.6" width="0.2032" layer="21"/>
-<wire x1="-6.3" y1="-3.6" x2="-6.3" y2="-6.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="6.2" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
-<wire x1="-6.3" y1="-6.2" x2="-4.2" y2="-6.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-6.2" x2="6.3" y2="-6.2" width="0.2032" layer="21"/>
-<wire x1="-0.6" y1="-6.2" x2="0.6" y2="-6.2" width="0.2032" layer="21"/>
-<wire x1="-0.6" y1="6.2" x2="0.6" y2="6.2" width="0.2032" layer="21"/>
-<text x="-2.54" y="1.27" size="0.762" layer="25" ratio="15">&gt;Name</text>
-<text x="-2.54" y="0" size="0.762" layer="27" ratio="15">&gt;Value</text>
-</package>
-<package name="U.FL">
-<description>&lt;h3&gt;U.FL SMD Antenna Connector&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 3.0mm x 2.5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;U.FL&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<wire x1="1.3" y1="0.7" x2="1.3" y2="2" width="0.127" layer="21"/>
-<wire x1="1.3" y1="2" x2="-1.3" y2="2" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
-<wire x1="1.3" y1="-2" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="0.7" x2="-1.3" y2="2" width="0.127" layer="21"/>
-<wire x1="-1.3" y1="-2" x2="-1.3" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="2" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-2" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.5" y2="2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="2" x2="1.3" y2="2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="0.7" x2="1.3" y2="0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-0.7" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
-<smd name="1" x="0" y="1.375" dx="2.2" dy="0.85" layer="1"/>
-<smd name="2" x="0" y="-1.375" dx="2.2" dy="0.85" layer="1"/>
-<smd name="FEED" x="1.525" y="0" dx="1.05" dy="1" layer="1"/>
-<smd name="NC" x="-1.525" y="0" dx="1.05" dy="1" layer="1"/>
-<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -478,6 +361,60 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="1X04_1MM_RA">
+<description>&lt;h3&gt;SMD- 4 Pin Right Angle &lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:4&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_04&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-1.5" y1="-4.6" x2="1.5" y2="-4.6" width="0.254" layer="21"/>
+<wire x1="-3" y1="-2" x2="-3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-0.35" x2="3" y2="-0.35" width="0.254" layer="21"/>
+<wire x1="3" y1="-0.35" x2="3" y2="-2" width="0.254" layer="21"/>
+<wire x1="-3" y1="-0.35" x2="-2.25" y2="-0.35" width="0.254" layer="21"/>
+<circle x="-2.5" y="0.3" radius="0.1414" width="0.4" layer="21"/>
+<smd name="NC2" x="-2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="NC1" x="2.8" y="-3.675" dx="1.2" dy="2" layer="1"/>
+<smd name="1" x="-1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="2" x="-0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="3" x="0.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<smd name="4" x="1.5" y="0" dx="0.6" dy="1.35" layer="1"/>
+<text x="-1.397" y="-2.159" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.651" y="-3.302" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="U.FL">
+<description>&lt;h3&gt;U.FL SMD Antenna Connector&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 3.0mm x 2.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://cdn.sparkfun.com/datasheets/Wireless/Antennas/RF-001001.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;U.FL&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="2" x2="-1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-2" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="0.7" x2="-1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-2" x2="-1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-2" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="1.5" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="2" x2="1.3" y2="2" width="0.127" layer="21"/>
+<wire x1="1.5" y1="0.7" x2="1.3" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-0.7" x2="1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2" x2="1.3" y2="-2" width="0.127" layer="21"/>
+<smd name="1" x="0" y="1.375" dx="2.2" dy="0.85" layer="1"/>
+<smd name="2" x="0" y="-1.375" dx="2.2" dy="0.85" layer="1"/>
+<smd name="FEED" x="1.525" y="0" dx="1.05" dy="1" layer="1"/>
+<smd name="NC" x="-1.525" y="0" dx="1.05" dy="1" layer="1"/>
+<text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -2836,6 +2773,107 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-GPS">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TITAN_X1_GPS">
+<circle x="-7.031" y="5.488" radius="0.2286" width="0.4572" layer="21"/>
+<wire x1="-6.25" y1="-6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
+<smd name="1" x="-6.25" y="3" dx="2" dy="0.6" layer="1"/>
+<smd name="2" x="-6.25" y="1.8" dx="2" dy="0.6" layer="1"/>
+<smd name="3" x="-6.25" y="0.6" dx="2" dy="0.6" layer="1"/>
+<smd name="4" x="-6.25" y="-0.6" dx="2" dy="0.6" layer="1"/>
+<smd name="5" x="-6.25" y="-1.8" dx="2" dy="0.6" layer="1"/>
+<smd name="6" x="-6.25" y="-3" dx="2" dy="0.6" layer="1"/>
+<smd name="7" x="-3.6" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-2.4" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="-1.2" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="1.2" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="2.4" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="12" x="3.6" y="-6.25" dx="2" dy="0.6" layer="1" rot="R90"/>
+<smd name="13" x="6.25" y="-3" dx="2" dy="0.6" layer="1"/>
+<smd name="14" x="6.25" y="-1.8" dx="2" dy="0.6" layer="1"/>
+<smd name="15" x="6.25" y="-0.6" dx="2" dy="0.6" layer="1"/>
+<smd name="16" x="6.25" y="0.6" dx="2" dy="0.6" layer="1"/>
+<smd name="17" x="6.25" y="1.8" dx="2" dy="0.6" layer="1"/>
+<smd name="18" x="6.25" y="3" dx="2" dy="0.6" layer="1"/>
+<smd name="19" x="3.6" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="20" x="2.4" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="21" x="1.2" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="22" x="-1.2" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="23" x="-2.4" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<smd name="24" x="-3.6" y="6.25" dx="2" dy="0.6" layer="1" rot="R270"/>
+<text x="-4.6" y="2.9" size="1.27" layer="51" ratio="15">1</text>
+<circle x="-4.8" y="4.7" radius="0.4" width="0.0762" layer="51"/>
+<circle x="-4.8" y="4.7" radius="0.22360625" width="0.0762" layer="51"/>
+<wire x1="-6.3" y1="6.2" x2="-4.2" y2="6.2" width="0.2032" layer="21"/>
+<wire x1="-6.3" y1="6.2" x2="-6.3" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="6.3" y1="3.6" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
+<wire x1="6.3" y1="-6.2" x2="6.3" y2="-3.6" width="0.2032" layer="21"/>
+<wire x1="-6.3" y1="-3.6" x2="-6.3" y2="-6.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="6.2" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
+<wire x1="-6.3" y1="-6.2" x2="-4.2" y2="-6.2" width="0.2032" layer="21"/>
+<wire x1="4.2" y1="-6.2" x2="6.3" y2="-6.2" width="0.2032" layer="21"/>
+<wire x1="-0.6" y1="-6.2" x2="0.6" y2="-6.2" width="0.2032" layer="21"/>
+<wire x1="-0.6" y1="6.2" x2="0.6" y2="6.2" width="0.2032" layer="21"/>
+<text x="-2.54" y="1.27" size="0.762" layer="25" ratio="15">&gt;Name</text>
+<text x="-2.54" y="0" size="0.762" layer="27" ratio="15">&gt;Value</text>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.0762" layer="39"/>
+<wire x1="5" y1="5" x2="5" y2="-5" width="0.0762" layer="39"/>
+<wire x1="5" y1="-5" x2="-5" y2="-5" width="0.0762" layer="39"/>
+<wire x1="-5" y1="-5" x2="-5" y2="5" width="0.0762" layer="39"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Batteries">
+<description>&lt;h3&gt;SparkFun Batteries&lt;/h3&gt;
+This library contains battery clips, connectors, and appropriately sized silk outlines for LiPo batteries. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BATTCON-6.8MM">
+<description>Part#: MS621FE-FL11E</description>
+<circle x="0" y="0" radius="3.4" width="0.2032" layer="21"/>
+<smd name="+" x="4.87" y="0.75" dx="2.25" dy="0.85" layer="1" rot="R180"/>
+<smd name="-" x="4.87" y="-0.75" dx="2.25" dy="0.85" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="3.4" width="0.2032" layer="39"/>
+<wire x1="5.9" y1="1" x2="5.9" y2="0.5" width="0.0762" layer="51"/>
+<wire x1="5.9" y1="0.5" x2="3.6" y2="0.5" width="0.0762" layer="51"/>
+<wire x1="3.6" y1="-0.5" x2="5.9" y2="-0.5" width="0.0762" layer="51"/>
+<wire x1="5.9" y1="-0.5" x2="5.9" y2="-1" width="0.0762" layer="51"/>
+<wire x1="3.6" y1="-0.5" x2="3.6" y2="0.5" width="0.0762" layer="51"/>
+<wire x1="5.9" y1="1" x2="-3" y2="1" width="0.0762" layer="51"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.0762" layer="51"/>
+<wire x1="-3" y1="-1" x2="5.9" y2="-1" width="0.0762" layer="51"/>
+<text x="-1.905" y="1.27" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3028,15 +3066,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="JP4" library="SparkFun" package="STAND-OFF" value="STAND-OFF" x="22.86" y="22.86"/>
 <element name="JP2" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="26.67" y="7.62"/>
 <element name="JP6" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="-1.27" y="24.13"/>
-<element name="J2" library="SparkX" package="1X04_1MM_RA" value="SMD" x="2.54" y="12.7" smashed="yes" rot="R270">
+<element name="J2" library="SparkFun-Connectors" package="1X04_1MM_RA" value="Qwiic Right Angle" x="2.54" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="0.381" y="14.097" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="PROD_ID" value="CONN-13729" x="2.54" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="Qwiic Right Angle" x="2.54" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J3" library="SparkX" package="1X04_NO_SILK" value="PTH" x="7.62" y="1.27" smashed="yes">
 <attribute name="NAME" x="6.35" y="2.667" size="0.6096" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-20.32" y="-17.78"/>
-<element name="J4" library="SparkX" package="1X04_1MM_RA" value="SMD" x="22.86" y="12.7" smashed="yes" rot="R90">
+<element name="J4" library="SparkFun-Connectors" package="1X04_1MM_RA" value="Qwiic Right Angle" x="22.86" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.019" y="11.303" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PROD_ID" value="CONN-13729" x="22.86" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="Qwiic Right Angle" x="22.86" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-MINI" value="OSHW-LOGOMINI" x="0" y="2.54" rot="MR0"/>
 <element name="J5" library="SparkFun-Connectors" package="1X01_NO_SILK" value="" x="17.78" y="1.27"/>
@@ -3080,13 +3122,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="20.447" y="2.54" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="19.812" y="5.207" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="B1" library="SparkX" package="6.8MM_COIN_CELL" value="COIN CELL" x="24.13" y="3.81" smashed="yes" rot="R135">
+<element name="B1" library="SparkFun-Batteries" package="BATTCON-6.8MM" value="6.8MM_COIN_CELL" x="24.13" y="3.81" smashed="yes" rot="R135">
 <attribute name="NAME" x="24.5790125" y="1.564934375" size="0.762" layer="25" ratio="15" rot="R135"/>
-<attribute name="VALUE" x="26.416" y="1.905" size="0.762" layer="27" ratio="15" rot="R135"/>
+<attribute name="VALUE" value="6.8MM_COIN_CELL" x="26.416" y="1.905" size="0.762" layer="27" ratio="15" rot="R135"/>
+<attribute name="PROD_ID" value="BATT-13734" x="24.13" y="3.81" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="U1" library="SparkX" package="TITAN_X1_GPS" value="TITAN X1 GPS" x="12.7" y="12.7" smashed="yes">
+<element name="U1" library="SparkFun-GPS" package="TITAN_X1_GPS" value="Titan X1 GPS" x="12.7" y="12.7" smashed="yes">
 <attribute name="NAME" x="10.16" y="13.97" size="0.762" layer="25" ratio="15"/>
-<attribute name="VALUE" x="8.382" y="7.874" size="0.762" layer="27" ratio="15"/>
+<attribute name="VALUE" value="Titan X1 GPS" x="8.382" y="7.874" size="0.762" layer="27" ratio="15"/>
+<attribute name="PROD_ID" value="GPS-13693" x="12.7" y="12.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="SparkFun-Resistors" package="0603" value="4.7k" x="0" y="2.54" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="RES-07857" x="3.81" y="2.54" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
@@ -3128,7 +3172,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="R11" library="SparkFun-Resistors" package="0603" value="470" x="24.13" y="17.78" rot="R90">
 <attribute name="PROD_ID" value="RES-07869" x="24.13" y="17.78" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 </element>
-<element name="J1" library="SparkX" package="U.FL" value="U.FL" x="-0.127" y="18.415" smashed="yes">
+<element name="J1" library="SparkFun-Connectors" package="U.FL" value="U.FL" x="-0.127" y="18.415" smashed="yes">
 <attribute name="PROD_ID" value="CONN-09193" x="-0.127" y="18.415" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="SF_ID" value="WRL-09144" x="-0.127" y="18.415" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="NAME" x="-1.397" y="20.955" size="0.6096" layer="25" font="vector" ratio="20"/>
