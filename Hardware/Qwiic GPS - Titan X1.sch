@@ -13755,6 +13755,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="80.38" y="46.92"/>
 </polygon>
 </package>
+<package name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - tDoc&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-LETTER">
@@ -18431,6 +18438,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="40.16" y="23.55"/>
 </polygon>
 </symbol>
+<symbol name="REVISION">
+<description>&lt;h3&gt;"Revision By" Text - Symbol&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="0" y="0" size="2.54" layer="94">Revision By: </text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -18553,6 +18567,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_FLAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REVISION" prefix="LOGO">
+<description>&lt;h3&gt;"Revision By" Text&lt;/h3&gt;
+&lt;p&gt;Preceding text for revisor documentation. Includes schematic text on "symbols" layer, and board text on tDoc.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="REVISION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REVISION">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20411,25 +20439,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R11" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="U.FL2PIN" device="" value="U.FL"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
+<part name="JP7" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="JP8" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="170.434" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">X10</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">V01</text>
 <text x="152.4" y="88.9" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x10</text>
 <text x="153.162" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Titan X1 GPS</text>
 <text x="31.242" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">RTC Backup</text>
-<text x="31.242" y="87.122" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Pulse Per Second LED</text>
+<text x="31.242" y="71.882" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Pulse Per Second LED</text>
 <text x="93.98" y="119.38" size="1.778" layer="97">50 Ohm 
 Microstrip: 0.0585"
 PCB: 0.8mm
 </text>
+<text x="174.752" y="7.112" size="2.54" layer="94">Andrew England</text>
+<wire x1="0" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="97" style="longdash"/>
+<wire x1="63.5" y1="185.42" x2="63.5" y2="0" width="0.1524" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="246.38" y="30.48"/>
 <instance part="JP4" gate="G$1" x="246.38" y="27.94"/>
-<instance part="JP2" gate="G$1" x="231.14" y="30.48"/>
+<instance part="JP2" gate="G$1" x="233.68" y="30.48" rot="R270"/>
 <instance part="JP6" gate="G$1" x="236.22" y="30.48"/>
 <instance part="SUPPLY4" gate="G$1" x="93.98" y="68.58"/>
 <instance part="J2" gate="G$1" x="104.14" y="60.96" smashed="yes" rot="MR0">
@@ -20484,10 +20518,10 @@ PCB: 0.8mm
 <attribute name="VALUE" x="207.899" y="144.78" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="208.28" y="154.94"/>
-<instance part="GND4" gate="1" x="22.86" y="33.02"/>
-<instance part="D1" gate="G$1" x="22.86" y="43.18"/>
+<instance part="GND4" gate="1" x="22.86" y="25.4"/>
+<instance part="D1" gate="G$1" x="22.86" y="35.56"/>
 <instance part="GND12" gate="1" x="88.9" y="121.92"/>
-<instance part="JP5" gate="G$1" x="22.86" y="66.04" rot="R90"/>
+<instance part="JP5" gate="G$1" x="22.86" y="55.88" rot="R90"/>
 <instance part="L1" gate="G$1" x="96.52" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.948" y="141.732" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="95.25" y="139.192" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
@@ -20502,15 +20536,18 @@ PCB: 0.8mm
 <instance part="SUPPLY5" gate="G$1" x="22.86" y="152.4"/>
 <instance part="R5" gate="G$1" x="22.86" y="137.16" rot="R90"/>
 <instance part="J7" gate="G$1" x="137.16" y="30.48" rot="R180"/>
-<instance part="R11" gate="G$1" x="22.86" y="53.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.162" y="50.292" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="26.162" y="55.118" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R11" gate="G$1" x="22.86" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="26.162" y="42.672" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="26.162" y="47.498" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="88.9" y="132.08" smashed="yes">
 <attribute name="NAME" x="82.296" y="132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.518" y="129.286" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="162.56" y="35.56"/>
+<instance part="LOGO3" gate="G$1" x="148.59" y="7.112"/>
+<instance part="JP7" gate="G$1" x="233.68" y="27.94" rot="R270"/>
+<instance part="JP8" gate="G$1" x="236.22" y="27.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -20621,7 +20658,7 @@ PCB: 0.8mm
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="22.86" y1="38.1" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -20738,10 +20775,9 @@ PCB: 0.8mm
 <pinref part="J7" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
-<label x="25.4" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="22.86" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="25.4" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="71.12" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXLV" class="0">
@@ -20838,7 +20874,7 @@ PCB: 0.8mm
 <net name="N$2" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="22.86" y1="48.26" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="40.64" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -20856,7 +20892,6 @@ PCB: 0.8mm
 <net name="N$4" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="60.96" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>

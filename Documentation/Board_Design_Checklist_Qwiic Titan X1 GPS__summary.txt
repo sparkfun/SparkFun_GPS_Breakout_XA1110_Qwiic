@@ -1,0 +1,21 @@
+1) Do all VCC connections use the VCC symbol (oriented upward)? [NO]
+comment: 3.3 instead of VCC
+
+2) Can standoffs/screws be used clear of other parts? [YES]
+comment: covers up antenna silk, thats fine
+
+3) Does this board adhere to the standard manufacturing process? (Kitting time, glue curing, humidor time, etc.) [NO]
+comment: 6.8 MM coin cell must be hand soldered to the board
+
+4) If there are any DRC errors, have they all been approved? [YES]
+comment: Errors on jumper
+
+5) Is there a note for a board thickness other than 0.63 inch?  [YES]
+comment: .8 mm pcb for microstrip
+
+6) Is the name of the board on the board? [YES]
+comment: No space on front, only on back
+
+7) Is any silkscreen overlaid on vias? [YES]
+comment: should be fine
+
