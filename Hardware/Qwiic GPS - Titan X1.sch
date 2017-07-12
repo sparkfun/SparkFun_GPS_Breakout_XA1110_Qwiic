@@ -20459,6 +20459,10 @@ PCB: 0.8mm
 <text x="174.752" y="7.112" size="2.54" layer="94">Andrew England</text>
 <wire x1="0" y1="81.28" x2="248.92" y2="81.28" width="0.1524" layer="97" style="longdash"/>
 <wire x1="63.5" y1="185.42" x2="63.5" y2="0" width="0.1524" layer="97" style="longdash"/>
+<text x="198.12" y="121.92" size="1.778" layer="97">Clear JP1 to remove 
+I2C pullups from bus</text>
+<text x="27.94" y="53.34" size="1.778" layer="97">Clear JP5 to 
+disable PPS LED</text>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="246.38" y="30.48"/>
@@ -20507,7 +20511,7 @@ PCB: 0.8mm
 </instance>
 <instance part="GND5" gate="1" x="22.86" y="111.76"/>
 <instance part="GND9" gate="1" x="129.54" y="101.6"/>
-<instance part="GND10" gate="1" x="38.1" y="114.3"/>
+<instance part="GND10" gate="1" x="38.1" y="111.76"/>
 <instance part="GND11" gate="1" x="104.14" y="139.7" rot="MR0"/>
 <instance part="U1" gate="U1" x="154.94" y="119.38"/>
 <instance part="SUPPLY6" gate="G$1" x="104.14" y="170.18" rot="MR0"/>
@@ -20527,7 +20531,7 @@ PCB: 0.8mm
 <attribute name="VALUE" x="95.25" y="139.192" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="C4" gate="G$1" x="88.9" y="147.32" rot="R90"/>
-<instance part="GND13" gate="1" x="78.74" y="147.32" rot="R270"/>
+<instance part="GND13" gate="1" x="78.74" y="144.78"/>
 <instance part="SUPPLY3" gate="G$1" x="96.52" y="149.86" rot="MR0"/>
 <instance part="D2" gate="G$1" x="22.86" y="147.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.4" y="149.352" size="1.778" layer="95" font="vector"/>
@@ -20632,7 +20636,7 @@ PCB: 0.8mm
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="119.38" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="119.38" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -20654,7 +20658,7 @@ PCB: 0.8mm
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="81.28" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
