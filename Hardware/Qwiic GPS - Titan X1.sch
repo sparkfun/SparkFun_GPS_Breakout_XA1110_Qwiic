@@ -19564,11 +19564,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-6.3" y1="6.2" x2="-4.2" y2="6.2" width="0.2032" layer="21"/>
 <wire x1="-6.3" y1="6.2" x2="-6.3" y2="3.6" width="0.2032" layer="21"/>
 <wire x1="6.3" y1="3.6" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
-<wire x1="6.3" y1="-6.2" x2="6.3" y2="-3.6" width="0.2032" layer="21"/>
 <wire x1="-6.3" y1="-3.6" x2="-6.3" y2="-6.2" width="0.2032" layer="21"/>
 <wire x1="4.2" y1="6.2" x2="6.3" y2="6.2" width="0.2032" layer="21"/>
 <wire x1="-6.3" y1="-6.2" x2="-4.2" y2="-6.2" width="0.2032" layer="21"/>
-<wire x1="4.2" y1="-6.2" x2="6.3" y2="-6.2" width="0.2032" layer="21"/>
 <wire x1="-0.6" y1="-6.2" x2="0.6" y2="-6.2" width="0.2032" layer="21"/>
 <wire x1="-0.6" y1="6.2" x2="0.6" y2="6.2" width="0.2032" layer="21"/>
 <text x="-2.54" y="1.27" size="0.762" layer="25" ratio="15">&gt;Name</text>
@@ -19577,6 +19575,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="5" y1="5" x2="5" y2="-5" width="0.0762" layer="39"/>
 <wire x1="5" y1="-5" x2="-5" y2="-5" width="0.0762" layer="39"/>
 <wire x1="-5" y1="-5" x2="-5" y2="5" width="0.0762" layer="39"/>
+<wire x1="4.191" y1="-6.223" x2="5.08" y2="-6.223" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-6.223" x2="6.223" y2="-5.08" width="0.2032" layer="21"/>
+<wire x1="6.223" y1="-5.08" x2="6.223" y2="-3.556" width="0.2032" layer="21"/>
 </package>
 </packages>
 <symbols>
