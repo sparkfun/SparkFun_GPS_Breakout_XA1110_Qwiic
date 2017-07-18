@@ -170,7 +170,7 @@
 <text x="17.78" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">SCL</text>
 <text x="20.32" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!INT</text>
 <text x="10.16" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GND</text>
-<text x="28.067" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">V01</text>
+<text x="28.067" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">V02</text>
 <text x="15.24" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">PPS</text>
 <text x="17.78" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">RX</text>
 <text x="20.32" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">TX</text>
@@ -183,7 +183,7 @@
 <text x="12.7" y="22.86" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">!RST</text>
 <text x="2.54" y="21.209" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">ANT</text>
 <text x="28.575" y="20.32" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">PPS</text>
-<text x="15.24" y="40.64" size="1.778" layer="20" font="vector" ratio="15" align="center">0.8mm PCB for microstrip</text>
+<text x="-15.24" y="-33.02" size="1.778" layer="51" font="vector" ratio="15" align="center">0.8mm PCB for microstrip</text>
 <text x="15.24" y="13.97" size="1.778" layer="22" font="vector" ratio="15" rot="SMR0" align="center">Qwiic
 GPS</text>
 <text x="13.97" y="-17.78" size="1.778" layer="51">Nathan Seidle</text>
@@ -1818,6 +1818,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.78" y="2.44"/>
 </polygon>
 </package>
+<package name="PRODUCTION_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Production Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors">
@@ -2369,6 +2382,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="JP7" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="29.21" y="7.62" rot="MR0"/>
 <element name="JP8" library="SparkFun" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="1.27" y="24.13" rot="MR0"/>
 <element name="U$2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="27.94" y="21.59"/>
+<element name="U$3" library="SparkFun-Aesthetics" package="PRODUCTION_INSTRUCTIONS" value="SPECIAL_INSTRUCTIONS-PRODUCTION" x="-35.56" y="-21.59"/>
 </elements>
 <signals>
 <signal name="3.3V">

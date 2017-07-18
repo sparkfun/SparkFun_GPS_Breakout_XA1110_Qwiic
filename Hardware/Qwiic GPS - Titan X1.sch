@@ -13762,6 +13762,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="1.778" layer="51" font="vector">Revision By: </text>
 </package>
+<package name="ORDERING_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Indicates that the PCB material, colors, copper weights, and/or thickness are non-standard.&lt;/p&gt;
+&lt;p&gt;(Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.)&lt;/p&gt;
+&lt;p&gt;Use 0.7" Vector font @ 8% ratio</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Ordering Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
+<package name="PRODUCTION_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Placeholder for notes on unique production processes, which may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="-1.27" size="3.048" layer="51" font="vector" ratio="15" align="top-left">Production Instructions:</text>
+<wire x1="0" y1="0" x2="101.6" y2="0" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-8.89" x2="101.6" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="101.6" y1="-50.8" x2="0" y2="-50.8" width="0.2032" layer="51"/>
+<wire x1="0" y1="-50.8" x2="0" y2="-8.89" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="0" y2="0" width="0.2032" layer="51"/>
+<wire x1="0" y1="-8.89" x2="101.6" y2="-8.89" width="0.2032" layer="51"/>
+<text x="1.27" y="-6.35" size="1.778" layer="51" font="vector" align="top-left">(Add these comments when uploading gerbers.)</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME-LETTER">
@@ -18445,6 +18473,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;REVISION&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <text x="0" y="0" size="2.54" layer="94">Revision By: </text>
 </symbol>
+<symbol name="SPECIAL_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;PCB Standard is 1.6mm FR4, 1 oz copper, immersion silver plating, red soldermask, white silkscreen.&lt;/p&gt;
+&lt;p&gt;Unique production processes may include special wash or depaneling instructions.&lt;/p&gt;</description>
+<text x="1.27" y="0.6985" size="1.27" layer="94" font="vector" ratio="20">Special Instructions</text>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="2.54" x2="22.86" y2="0" width="0.254" layer="94"/>
+<wire x1="22.86" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LETTER" prefix="FRAME">
@@ -18581,6 +18620,45 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </gates>
 <devices>
 <device name="" package="REVISION">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPECIAL_INSTRUCTIONS">
+<description>&lt;h3&gt;Special Ordering/Production Instructions Alert&lt;/h3&gt;
+&lt;p&gt;Symbol for special PCB ordering instructions or unique production process warnings.&lt;/p&gt;
+&lt;p&gt;&lt;table border=1 cellpadding=1&gt;
+&lt;tr&gt;&lt;th&gt;Ordering Instructions&lt;/th&gt;&lt;th&gt;Production Instructions&lt;/th&gt;
+&lt;tr&gt;&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Copper weight&lt;/li&gt;&lt;li&gt;Soldermask color&lt;/li&gt;&lt;li&gt;Silk color&lt;/li&gt;&lt;li&gt;PCB thickness&lt;/li&gt;&lt;li&gt;Number of layers&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;PCB Standard:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;1.6mm FR4&lt;/li&gt;&lt;li&gt;1 oz copper&lt;/li&gt;&lt;li&gt;immersion silver plating&lt;/li&gt;&lt;li&gt;red soldermask&lt;/li&gt;&lt;li&gt;white silkscreen&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;p&gt;&lt;b&gt;Types of information that should be added to box:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Special wash requirements&lt;/li&gt;&lt;li&gt;Depaneling instructions&lt;/li&gt;&lt;li&gt;Humidification&lt;/li&gt;&lt;li&gt;Glue curing&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Default text settings:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;0.07 inch&lt;/li&gt;
+&lt;li&gt;9% ratio&lt;/li&gt;
+&lt;li&gt;50% line distance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SPECIAL_INSTRUCTIONS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-ORDERING" package="ORDERING_INSTRUCTIONS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-PRODUCTION" package="PRODUCTION_INSTRUCTIONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -20443,12 +20521,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="JP7" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="JP8" library="SparkFun" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="U$3" library="SparkFun-Aesthetics" deviceset="SPECIAL_INSTRUCTIONS" device="-PRODUCTION"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="170.434" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">V01</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">V02</text>
 <text x="152.4" y="88.9" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x10</text>
 <text x="153.162" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Titan X1 GPS</text>
 <text x="31.242" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">RTC Backup</text>
@@ -20462,7 +20541,7 @@ PCB: 0.8mm
 <wire x1="63.5" y1="185.42" x2="63.5" y2="0" width="0.1524" layer="97" style="longdash"/>
 <text x="198.12" y="121.92" size="1.778" layer="97">Clear JP1 to remove 
 I2C pullups from bus</text>
-<text x="27.94" y="53.34" size="1.778" layer="97">Clear JP5 to 
+<text x="20.32" y="60.96" size="1.778" layer="97">Clear JP5 to 
 disable PPS LED</text>
 </plain>
 <instances>
@@ -20487,7 +20566,7 @@ disable PPS LED</text>
 <attribute name="NAME" x="109.22" y="40.894" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="GND8" gate="1" x="93.98" y="25.4"/>
-<instance part="LOGO1" gate="G$1" x="233.68" y="48.26"/>
+<instance part="LOGO1" gate="G$1" x="234.696" y="48.514"/>
 <instance part="J5" gate="G$1" x="137.16" y="45.72" rot="R180"/>
 <instance part="C2" gate="G$1" x="114.3" y="147.32"/>
 <instance part="GND2" gate="1" x="114.3" y="139.7"/>
@@ -20526,14 +20605,14 @@ disable PPS LED</text>
 <instance part="GND4" gate="1" x="22.86" y="25.4"/>
 <instance part="D1" gate="G$1" x="22.86" y="35.56"/>
 <instance part="GND12" gate="1" x="88.9" y="121.92"/>
-<instance part="JP5" gate="G$1" x="22.86" y="55.88" rot="R90"/>
+<instance part="JP5" gate="G$1" x="27.94" y="53.34"/>
 <instance part="L1" gate="G$1" x="96.52" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="91.948" y="141.732" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="95.25" y="139.192" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="C4" gate="G$1" x="88.9" y="147.32" rot="R90"/>
-<instance part="GND13" gate="1" x="78.74" y="144.78"/>
-<instance part="SUPPLY3" gate="G$1" x="96.52" y="149.86" rot="MR0"/>
+<instance part="C4" gate="G$1" x="88.9" y="149.86" rot="R90"/>
+<instance part="GND13" gate="1" x="83.82" y="144.78"/>
+<instance part="SUPPLY3" gate="G$1" x="96.52" y="152.4" rot="MR0"/>
 <instance part="D2" gate="G$1" x="22.86" y="147.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.4" y="149.352" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="25.4" y="147.828" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -20542,8 +20621,8 @@ disable PPS LED</text>
 <instance part="R5" gate="G$1" x="22.86" y="137.16" rot="R90"/>
 <instance part="J7" gate="G$1" x="137.16" y="30.48" rot="R180"/>
 <instance part="R11" gate="G$1" x="22.86" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.162" y="42.672" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="26.162" y="47.498" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<attribute name="NAME" x="26.162" y="45.212" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="28.702" y="44.958" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="88.9" y="132.08" smashed="yes">
 <attribute name="NAME" x="82.296" y="132.08" size="1.778" layer="95"/>
@@ -20553,6 +20632,7 @@ disable PPS LED</text>
 <instance part="LOGO3" gate="G$1" x="148.59" y="7.112"/>
 <instance part="JP7" gate="G$1" x="233.68" y="27.94" rot="R270"/>
 <instance part="JP8" gate="G$1" x="236.22" y="27.94" rot="R270"/>
+<instance part="U$3" gate="G$1" x="223.266" y="36.322"/>
 </instances>
 <busses>
 </busses>
@@ -20594,11 +20674,11 @@ disable PPS LED</text>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="149.86" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="152.4" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="147.32" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<junction x="96.52" y="147.32"/>
+<wire x1="96.52" y1="149.86" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
+<junction x="96.52" y="149.86"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
@@ -20659,12 +20739,12 @@ disable PPS LED</text>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="78.74" y1="147.32" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="149.86" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="22.86" y1="30.48" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<wire x1="22.86" y1="30.48" x2="22.86" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
@@ -20780,8 +20860,8 @@ disable PPS LED</text>
 <pinref part="J7" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="22.86" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-<label x="25.4" y="60.96" size="1.27" layer="95" xref="yes"/>
+<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="53.34" size="1.27" layer="95" xref="yes"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -20898,6 +20978,7 @@ disable PPS LED</text>
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="53.34" x2="22.86" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
