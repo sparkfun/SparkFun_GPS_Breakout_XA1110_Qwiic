@@ -170,7 +170,7 @@
 <text x="17.78" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">SCL</text>
 <text x="20.32" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">!INT</text>
 <text x="10.16" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR90" align="center-left">GND</text>
-<text x="28.067" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">V02</text>
+<text x="28.067" y="1.27" size="1.27" layer="16" font="vector" ratio="15" rot="MR180" align="center">v02</text>
 <text x="15.24" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">PPS</text>
 <text x="17.78" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">RX</text>
 <text x="20.32" y="22.86" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">TX</text>
