@@ -188,16 +188,16 @@
 GPS</text>
 <text x="13.97" y="-17.78" size="1.778" layer="51">Nathan Seidle</text>
 <text x="12.7" y="-20.32" size="1.778" layer="51">Andrew England</text>
-<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-5.08" y3="12.7" textsize="1.778" layer="47"/>
-<dimension x1="5.08" y1="22.86" x2="5.08" y2="0" x3="-1.27" y3="11.43" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="25.4" x2="5.08" y2="25.4" x3="2.54" y3="26.67" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="25.4" x2="30.48" y2="25.4" x3="15.24" y3="34.29" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="30.48" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="10.16" y2="0" x3="5.08" y3="-3.81" textsize="1.778" layer="47"/>
-<text x="1.27" y="-8.89" size="1.778" layer="47">Measurements in mm</text>
+<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-5.08" y3="12.7" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="5.08" y1="22.86" x2="5.08" y2="0" x3="-1.27" y3="11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="5.08" y2="25.4" x3="2.54" y3="26.67" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="30.48" y2="25.4" x3="15.24" y3="34.29" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="25.4" y2="25.4" x3="12.7" y3="30.48" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="10.16" y2="0" x3="5.08" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<text x="-2.54" y="-8.89" size="1.778" layer="47">Measurements in inches</text>
 <text x="4.318" y="3.81" size="0.8128" layer="21" font="vector" ratio="15">I2C</text>
 <text x="4.445" y="0.508" size="0.8128" layer="21" font="vector" ratio="15">PU</text>
-<text x="22.9362" y="19.0627" size="0.8128" layer="21" font="vector" rot="R270">JP5</text>
+<text x="22.9362" y="19.0627" size="0.8128" layer="21" font="vector" ratio="15" rot="R270">JP5</text>
 </plain>
 <libraries>
 <library name="SparkFun">
