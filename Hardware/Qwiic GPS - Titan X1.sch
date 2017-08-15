@@ -20527,7 +20527,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="170.434" y="11.43" size="2.54" layer="94">N. Seidle</text>
-<text x="237.744" y="7.366" size="2.54" layer="94">V03</text>
+<text x="237.744" y="7.366" size="2.54" layer="94">V10</text>
 <text x="152.4" y="88.9" size="1.778" layer="97" align="center">7-bit unshifted I2C address: 0x10</text>
 <text x="153.162" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">Titan X1 GPS</text>
 <text x="31.242" y="165.862" size="2.54" layer="94" ratio="15" rot="MR180" align="center">RTC Backup</text>
