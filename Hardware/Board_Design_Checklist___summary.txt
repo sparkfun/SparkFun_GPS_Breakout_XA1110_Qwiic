@@ -1,6 +1,0 @@
-1) Do all VCC connections use the VCC symbol (oriented upward)? [NO]
-comment: 3.3V instead
-
-2) Is there a note for a board thickness other than 0.63 inch?  [YES]
-comment: .8mm PCB!!!
-
