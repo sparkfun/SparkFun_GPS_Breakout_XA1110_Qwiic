@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map 
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+I2CGPS KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin			KEYWORD2
+check 			KEYWORD2
+available 		KEYWORD2
+read 			KEYWORD2
+sendMTKpacket 	KEYWORD2
+createMTKpacket	KEYWORD2
+calcCRCforMTK	KEYWORD2
+
+enableDebugging KEYWORD2
+disableDebugging KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
